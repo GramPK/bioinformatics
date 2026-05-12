@@ -1,6 +1,6 @@
 # Setting for bioinformatics
-## MySQL
-### MySQL install (Windows)
+## 1. MySQL
+### 1.1. MySQL install (Windows)
 1. Access 'https://www.mysql.com/'.
 2. Click 'DOWNLOADS'.
 3. Click 'MySQL Installer for Windows'. Or you can directly access via this URL: https://dev.mysql.com/downloads/mysql/.
@@ -10,15 +10,15 @@
 7. Install 'MySQL Server' and 'MySQL Workbench'.
 8. Set password. ***Do not forget this password.***
 
-### MySQL install (mac)
-#### Server download
+### 1.2. MySQL install (mac)
+#### 1.2.1. Server download
 1. Access 'https://www.mysql.com/'.
 2. Click 'DOWNLOADS'.
 3. Click 'MySQL Community (GPL) Downloads'. Or you can directly access via this URL: https://dev.mysql.com/downloads/installer/.
 4. Click 'MySQL Community Server'.
 5. Download and install the server.
 
-#### Workbench download
+#### 1.2.2. Workbench download
 1. Access 'https://www.mysql.com/'.
 2. Click 'DOWNLOADS'.
 3. Click 'MySQL Community (GPL) Downloads'. Or you can directly access via this URL: https://dev.mysql.com/downloads/workbench/.
