@@ -6,7 +6,7 @@
 5. Download 'mysql-installer-community-x.x.x.x.msi' and run the downloaded file.
 6. Choose a setup type as 'Custom'.
 7. Install 'MySQL Server' and 'MySQL Workbench'.
-8. Set password. **Do not forget the password.**
+8. Set password. ***Do not forget this password.***
 
 # MySQL install (mac)
 ## Server download
