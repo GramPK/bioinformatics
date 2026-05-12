@@ -2,7 +2,7 @@
 ## Install R
 1. Access 'https://www.r-project.org'.
 2. Click 'CRAN'.
-3. Select URL depending on your location. Or clikc 'https://cloud.r-project.org'.
+3. Select URL depending on your location. Or click 'https://cloud.r-project.org'.
 4. Click 'Download R for Windows'.
 5. Click 'Base'.
 6. Click 'Download R-x.x.x for Windows' for download.
