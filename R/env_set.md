@@ -7,6 +7,7 @@
 5) Select R version and click it for download.
 6) Install R.
 
+
 ## **2. Install R studio**
 1) Access 'https://posit.co/download/rstudio-desktop'.
 2) Select macOS version.
