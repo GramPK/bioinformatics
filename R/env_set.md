@@ -27,3 +27,6 @@
 2. Select macOS version.
 3. Click 'DOWNLOAD RSTUDIO DESKTOP...'.
 4. Install R studio.
+
+# Useful packages
+- install.library("tidyverse")
