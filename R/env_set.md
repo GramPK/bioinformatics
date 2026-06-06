@@ -29,4 +29,6 @@
 4. Install R studio.
 
 # Useful packages
-- install.library("tidyverse")
+```R
+> install.packages("tidyverse")
+```
