@@ -31,4 +31,5 @@
 # Useful packages
 ```R
 > install.packages("tidyverse")
+> install.packages("growthcurver")
 ```
