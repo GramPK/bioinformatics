@@ -21,11 +21,11 @@ color = c("#212c3e", "#d95d5b", "#8e99ab")
 # | fructose | 2 | 0 | 0.04 |
 
 # Read data
-OD_raw = read_csv(input_path)
+OD_raw = read_csv(input_path) %>%
+  select(name, rep, time, OD600) %>%
+  drop_na(OD600)
 
 OD_summary = OD_raw %>%
-  select(name, time, OD600) %>%
-  drop_na(OD600) %>%
   group_by(time, name) %>%
   summarise(n = n(),
             mean_OD = mean(OD600),
@@ -82,8 +82,6 @@ ggplot(OD_summary, aes(x = time, y = mean_OD, color = name)) +
 
 # Calculate specific growth rates
 u_list = OD_raw %>%
-  select(name, rep, time, OD600) %>%
-  drop_na(OD600) %>%
   group_by(name, rep) %>%
   arrange(time, .by_group = TRUE) %>%
   group_modify(~ {
