@@ -36,8 +36,27 @@
 > install.packages("growthcurver")
 ```
 
-## 2. MySQL
-### 2.1. MySQL install (Windows)
+## 2. Python (mac)
+### 2.1. Install Anaconda
+1. Access "https://www.anaconda.com/download/success?reg=skipped".
+2. Download "Anaconda Distribution".
+3. Install the file.
+
+### 2.2. Install VS Code (mac)
+1. Access "https://code.visualstudio.com/download?_exp_download=fb315fc982".
+2. Download the installer.
+3. Install the VS Code.
+
+### 2.3. Useful packages
+```Python
+> conda create -n mfa
+> conda activate mfa
+> pip3 install cobra
+> conda deactivate
+```
+
+## 3. MySQL
+### 3.1. Install MySQL (Windows)
 1. Access "https://www.mysql.com/".
 2. Click "DOWNLOADS".
 3. Click "MySQL Installer for Windows". Or you can directly access via this URL: https://dev.mysql.com/downloads/mysql/.
@@ -47,15 +66,15 @@
 7. Install "MySQL Server" and "MySQL Workbench".
 8. Set password. ***Do not forget this password.***
 
-### 2.2. MySQL install (mac)
-#### 2.2.1. Server download
+### 3.2. Install MySQL (mac)
+#### 3.2.1. Server download
 1. Access "https://www.mysql.com/".
 2. Click "DOWNLOADS".
 3. Click "MySQL Community (GPL) Downloads". Or you can directly access via this URL: https://dev.mysql.com/downloads/installer/.
 4. Click "MySQL Community Server".
 5. Download and install the server.
 
-#### 2.2.2. Workbench download
+#### 3.2.2. Workbench download
 1. Access "https://www.mysql.com/".
 2. Click "DOWNLOADS".
 3. Click "MySQL Community (GPL) Downloads". Or you can directly access via this URL: https://dev.mysql.com/downloads/workbench/.
