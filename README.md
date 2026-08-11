@@ -46,6 +46,8 @@
 1. Access "https://code.visualstudio.com/download?_exp_download=fb315fc982".
 2. Download the installer.
 3. Install the VS Code.
+4. Run the VS Code.
+5. Install Python extension (provided by Microsoft).
 
 ### 2.3. Useful packages
 ```Python
