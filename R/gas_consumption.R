@@ -26,6 +26,12 @@ std = tribble(
   lm(norm_area ~ conc, data = .)
 ##########################################
 
+# Input .csv file format (example)
+# | name | rep | time | OD600 | S |
+# |------|-----|------|-------|---|
+# | CO2 | 1 | 0 | 0.01 | 2680.3 |
+# | CO2 | 2 | 0 | 0.03 | 2900.1 |
+
 # Read data
 # Ideal gas law n = PV/(RT). R = (L*atm/mmol/K)	0.000082
 raw = read_csv(input_path) %>%
