@@ -25,10 +25,10 @@ std = tribble(
 ##########################################
 
 # Input .csv file format (example)
-# | name | rep | time | OD600 | S |
-# |------|-----|------|-------|---|
-# | glucose | 1 | 0 | 0.01 | 30.0 |
-# | glucose | 2 | 0 | 0.03 | 31.2 |
+# | name | rep | time | OD600 | S | S_ISTD |
+# |------|-----|------|-------|---|--------|
+# | glucose | 1 | 0 | 0.01 | 30.0 | 10.3 |
+# | glucose | 2 | 0 | 0.03 | 31.2 | 12.1 |
 
 # Read data
 raw = read_csv(input_path) %>%
