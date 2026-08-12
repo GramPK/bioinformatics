@@ -54,6 +54,8 @@
 > conda create -n mfa
 > conda activate mfa
 > pip3 install cobra
+> pip3 install pandas
+> pip3 install openpyxl
 > conda deactivate
 ```
 
