@@ -3,6 +3,7 @@ library(tidyverse)
 ##########################################
 input_path = "FILE PATH"
 culture_vol = CULTURE VOLUME  # L
+cell_mass = CELL MASS (g/L) at OD 1
 symbol_size = 5
 axis_text_size = 17
 axis_title_text_size = 18
@@ -64,5 +65,5 @@ rate = raw %>%
   group_by(name, rep) %>%
   arrange(time) %>%
   mutate(
-    qS = (lag(mmol) - mmol) / (time - lag(time)) / (OD600 + lag(OD600)) * 2
+    qS = (lag(mmol) - mmol) / (time - lag(time)) / (OD600 + lag(OD600)) / cell_mass / culture_vol * 2
     )
