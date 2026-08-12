@@ -4,6 +4,7 @@ library(tidyverse)
 input_path = "FILE PATH"
 vial_vol = FLASK VOLUME (L)  # L
 culture_vol = MEDIA VOLUME (L)  # L
+cell_mass = CELL MASS (g/L) at OD 1
 culture_temp = 37  # Celcius degree
 symbol_size = 5
 axis_text_size = 17
@@ -66,5 +67,5 @@ rate = raw %>%
   group_by(name, rep) %>%
   arrange(time) %>%
   mutate(
-    qS = (lag(mmol) - mmol) / (time - lag(time)) / (OD600 + lag(OD600)) * 2
+    qS = (lag(mmol) - mmol) / (time - lag(time)) / (OD600 + lag(OD600)) / cell_mass / culture_vol * 2
     )
