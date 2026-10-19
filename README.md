@@ -53,7 +53,17 @@ sudo apt update -y
 sudo apt install -y wget ca-certificates
 ```
 
-### 2.3. Useful packages
+### 2.3. Install VS Code (mac)
+1. Access "https://code.visualstudio.com/download?_exp_download=fb315fc982".
+2. Download the installer (for Windows).
+3. Install the VS Code.
+4. Run the VS Code.
+5. Install WSL extension (provided by Microsoft).
+6. Run the VS Code.
+7. Click the Remote Explorer and connect to WSL.
+8. Install Python extension (provided by Microsoft).
+
+### 2.4. Useful packages
 ```Python
 sudo apt install python3-pip python3-venv
 
